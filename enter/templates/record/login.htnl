@@ -1,0 +1,7 @@
+{% comment %} from django.contrib import messages {% endcomment %}
+<h1>login</h1>
+<br></br>
+    <form action="" method =POST>
+        {% csrf_token %}
+        <input type="submit" value="enter" class="btn btn_secondry">
+    </form>
